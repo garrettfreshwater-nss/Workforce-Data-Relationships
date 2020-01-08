@@ -1,0 +1,66 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Chromebook",
+            "year": 2018
+        },
+        {
+            "id": 3,
+            "model": "Dell Laptop",
+            "year": 2012
+        },
+        {
+            "id": 4,
+            "model": "Hp Laptop",
+            "year": 2013
+        },
+        {
+            "id": 5,
+            "model": "Corsair Thinkpad",
+            "year": 2017
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 30,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Gerald",
+            "lastName": "Yessumanu",
+            "age": 30,
+            "computerId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Silvia",
+            "lastName": "Kotora",
+            "age": 30,
+            "computerId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Philben",
+            "lastName": "Zalintino",
+            "age": 30,
+            "computerId": 4
+        },
+        {
+            "id": 5,
+            "firstName": "Explineh",
+            "lastName": "Biltozil",
+            "age": 30,
+            "computerId": 2
+        }
+    ]
+}
