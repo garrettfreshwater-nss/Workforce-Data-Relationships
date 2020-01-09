@@ -33,7 +33,8 @@
             "lastName": "Ittycheriah",
             "age": 30,
             "computerId": 1,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId": 2
         },
         {
             "id": 2,
@@ -41,7 +42,8 @@
             "lastName": "Yessumanu",
             "age": 30,
             "computerId": 3,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 1
         },
         {
             "id": 3,
@@ -49,7 +51,9 @@
             "lastName": "Kotora",
             "age": 30,
             "computerId": 2,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 3
+
         },
         {
             "id": 4,
@@ -57,7 +61,8 @@
             "lastName": "Zalintino",
             "age": 30,
             "computerId": 4,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 1
         },
         {
             "id": 5,
@@ -65,7 +70,8 @@
             "lastName": "Biltozil",
             "age": 30,
             "computerId": 2,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 2
         }
     ],
     "departments": [
@@ -85,5 +91,72 @@
             "id": 4,
             "name": "IT"
         }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville"
+        },
+        {
+            "id": 2,
+            "city": "Memphis"
+        },
+        {
+            "id": 3,
+            "city": "Atlanta"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Duck and Dovetail"
+        },
+        {
+            "id": 2,
+            "businessName": "Hatchets & Flag"
+        },
+        {
+            "id": 3,
+            "businessName": "Starts & Lumber"
+        },
+        {
+            "id": 4,
+            "businessName": "Pails & Money"
+        },
+        {
+            "id": 5,
+            "businessName": "Squirrels & Blood"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 3,
+            "customerId": 4,
+            "rate": 60,
+            "contractLength": 540
+        },
+        {
+            "id": 2,
+            "employeeId": 1,
+            "customerId": 3,
+            "rate": 60,
+            "contractLength": 540
+        },
+        {
+            "id": 3,
+            "employeeId": 5,
+            "customerId": 2,
+            "rate": 60,
+            "contractLength": 540
+        },
+        {
+            "id": 4,
+            "employeeId": 1,
+            "customerId": 1,
+            "rate": 60,
+            "contractLength": 540
+        }
     ]
+    
 }
