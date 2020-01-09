@@ -1,0 +1,11 @@
+@import 'card.css';
+@import 'footer.css';
+@import 'nav.css';
+
+body {}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

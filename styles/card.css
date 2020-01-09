@@ -1,0 +1,22 @@
+.employee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2rem;
+    padding: 2rem;
+    border: .1em black blueviolet;
+    box-shadow: 2em;
+    border-top: none;
+    border-right: none;
+    box-shadow: -14px 14px 10px 3px rgba(143,103,143,1);
+}
+
+.employee__department {
+    color: blue;
+    padding-top: 2rem;
+
+}
+hr {
+    width: 100%;
+}
+
