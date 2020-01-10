@@ -20,14 +20,14 @@ const Employees = (employee, computer, department, location, customers) => {
             </div>
 
             <div class="found__customers">
-                    <h3>Currently working for </h3>
-                    <ol>
+                    <h3>Working for:</h3>
+                    <bl>
                     ${
                         customers.map(c => {
                             return `<li>${c.businessName}</li>`
                         }).join("")
                     }
-                    </ol>
+                    </bl>
         
             </div>
     

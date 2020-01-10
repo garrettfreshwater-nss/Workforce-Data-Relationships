@@ -1,14 +1,14 @@
 
-import { useComputers } from "../computer/ComputerDataProvider.js";
-import { useEmployees } from "./EmployeeDataProvider.js";
-import { useDepartments } from "../department/DepartmentProvider.js";
+import { useComputers } from "../providers/ComputerDataProvider.js";
+import { useEmployees } from "../providers/EmployeeDataProvider.js";
+import { useDepartments } from "../providers/DepartmentDataProvider.js";
 import Employees from "./EmployeeComponents.js";
-import { useLocations } from "../location/LocationDataProvider.js";
-import { useCustomers } from "../computer/CustomerDataProvider.js";
-import { useEmployeeCustomers } from "./EmployeeCustomerProvider.js";
+import { useLocations } from "../providers/LocationDataProvider.js";
+import { useCustomers } from "../providers/CustomerDataProvider.js";
+import { useEmployeeCustomers } from "../providers/EmployeeCustomerProvider.js";
 
 
-const contentTarget = document.querySelector(".employees")
+const contentTarget = document.querySelector(".employees") //this contentTarget variable is selecting the .employees class being rendered onto the page from our html
 
 export const EmployeeList = () => {
 

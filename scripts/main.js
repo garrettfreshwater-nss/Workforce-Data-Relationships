@@ -1,11 +1,12 @@
 
-import { getEmployees } from "./employee/EmployeeDataProvider.js";
-import { getComputers } from "./computer/ComputerDataProvider.js";
+import { getEmployees } from "./providers/EmployeeDataProvider.js";
+import { getComputers } from "./providers/ComputerDataProvider.js";
+import { getDepartments } from "./providers/DepartmentDataProvider.js";
+import { getLocations } from "./providers/LocationDataProvider.js";
+import { getCustomers } from "./providers/CustomerDataProvider.js";
+import { getEmployeeCustomers } from "./providers/EmployeeCustomerProvider.js";
+import CustomerList from "./customer/CustomerList.js";
 import EmployeeList from "./employee/EmployeeList.js";
-import { getDepartments } from "./department/DepartmentProvider.js";
-import { getLocations } from "./location/LocationDataProvider.js";
-import { getCustomers } from "./computer/CustomerDataProvider.js";
-import { getEmployeeCustomers } from "./employee/EmployeeCustomerProvider.js";
 
 
 
@@ -16,3 +17,4 @@ getEmployees()
     .then(getCustomers)
     .then(getEmployeeCustomers)
     .then(EmployeeList)
+    .then(CustomerList)

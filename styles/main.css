@@ -10,3 +10,73 @@ div {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.customer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.client__title {
+
+    text-align: center;
+    font-family: 'New Rocker', cursive;
+    font-size: 5rem;
+    margin: 20px;
+    color: #022d2e;
+    background: white;
+    letter-spacing: .15em;
+    text-shadow: 1px -1px 0 #2c786c, -1px 2px 1px #387e73, -2px 4px 1px #4e9c90, -3px 6px 1px #4d8f85, -4px 8px 1px #f7bd20, -5px 10px 1px #ffce49, -6px 12px 1px #ffe6a0, -6px 12px 1px #faefd1
+}
+
+.empCust .employee__name {
+
+    font-family: 'Rock Salt';
+    padding-left: 15px;
+    font-size: 20px;
+
+}
+
+.customer__card h1 {
+    font-size: 35px;
+    font-family: 'Alata';
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #004445;
+    background: transparent;
+    letter-spacing: .12em;
+    /* text-shadow: 1px -1px 0 #2c786c, -1px 2px 1px #387e73, -2px 4px 1px #4e9c90, -3px 6px 1px #4d8f85, -4px 8px 1px #f8b400, -5px 10px 1px #ffce49, -6px 12px 1px #ffe6a0 */
+}
+
+.empCust {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+    padding-left: 70px;
+    font-size: 25px;
+
+    
+
+}
+
+.business__name {
+
+}
+
+.clients {
+    width: 60%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem;
+    padding: 4rem;
+    border: .1em groove blueviolet;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px 3px #004445;
+}
